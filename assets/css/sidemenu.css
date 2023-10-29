@@ -16,9 +16,9 @@ body, ul, li {
     display: none;
   }
   
-  /* 사이트의 높이를 2000px로 만들어 스크롤 생성 */
+  /* 사이트의 높이를 3000px로 만들어 스크롤 생성 */
   body {
-    height: 2000px;
+    height: 3000px;
   }
   
   /* 사이드바 시작 */
