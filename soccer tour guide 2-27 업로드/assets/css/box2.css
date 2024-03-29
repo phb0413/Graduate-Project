@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    width: 1150px; /* 전체 박스의 너비 조절 가능 */
+    margin: 17px auto 0; /* 가운데 정렬 */
+    border: 1px solid black;
+}
+.box {
+    flex: 1; /*각 칸이 동일한 너비를 가짐 */
+    height: 250px; /* 칸의 높이 조절 가능 */
+    border-right: 1px solid black; /* 오른쪽 경계선 */
+    box-sizing: border-box; /* 경계선을 포함하여 너비 조절 */
+    display: flex;
+    /* justify-content: center; 내부 컨텐츠 중앙 정렬 */
+    /* align-items: center; 내부 컨텐츠 수직 중앙 정렬 */
+}
+.box:last-child {
+    border-right: none; /* 마지막 칸에는 오른쪽 경계선 없앰 */
+}
+.box-1 {
+    flex-basis: 20px; /* 첫 번째 칸의 너비를 20px로 설정 */
+}
+.box-2 {
+    flex-basis: 500px; /* 두 번째 칸의 너비를 500px로 설정 */
+}
+.box-3 {
+    flex-basis: 20px; /* 세 번째 칸의 너비를 20px로 설정 */
+}
+.box-content {
+    line-height: 1; /* 글씨의 위아래 줄 간격을 줄임 */
+}
