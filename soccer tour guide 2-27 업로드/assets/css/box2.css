@@ -7,7 +7,7 @@
 .box {
     flex: 1; /*각 칸이 동일한 너비를 가짐 */
     height: 250px; /* 칸의 높이 조절 가능 */
-    border-right: 1px solid black; /* 오른쪽 경계선 */
+    border-right: 1px solid black; /*오른쪽 경계선// */
     box-sizing: border-box; /* 경계선을 포함하여 너비 조절 */
     display: flex;
     /* justify-content: center; 내부 컨텐츠 중앙 정렬 */
